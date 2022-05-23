@@ -29,7 +29,7 @@ int nro_sols(int p){
 
 int main() {
 	init();
-	int n = 120;
+	int n = 1000;
 	int ans = 0, p = 0, curr = 0, c;
 	for(int i = 1; i <= n; i++){
 		curr = nro_sols(i);
@@ -52,3 +52,18 @@ int main() {
 	for(auto v : sols) cout << v[0] << " " << v[1] << " " << v[2] << endl;
 	
 }
+
+// Solución
+
+// El valor de p para el cual existe el máximo nro de soluciones: 840
+// Nro máximo de soluciones: 8
+// Soluciones
+// 40 399 401
+// 56 390 394
+// 105 360 375
+// 120 350 370
+// 140 336 364
+// 168 315 357
+// 210 280 350
+// 240 252 348
+
